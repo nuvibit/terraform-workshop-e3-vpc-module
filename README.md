@@ -13,9 +13,11 @@ Terraform workflow:
 
 ```
 terraform fmt
+terraform init
 terraform validate
 terraform plan -out my-tf-plan.tfplan
 terraform apply my-tf-plan.tfplan
+terraform destroy
 ```
 
 ## Thirdparty VPC Module
@@ -24,6 +26,12 @@ In this exercise, we use the AWS VPC Module crafted by Anton Babenko.
 
 https://registry.terraform.io/modules/terraform-aws-modules/vpc/
 
+We are using the VPC module 4 times
+
+- VPC E3a with fixed EIPs, single NAT per VPC
+- VPC E3b with all networks, single NAT
+- VPC E3c with public reachable Database Network
+- VPC E3d with IPv6
 
 
 
