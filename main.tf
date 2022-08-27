@@ -93,12 +93,12 @@ module "vpc_e3b" {
 module "vpc_e3c" {
   source = "terraform-aws-modules/vpc/aws"
 
-  name = "tf-e3c-vpc"
+  name = "tf-e3d-vpc"
   cidr = "10.2.0.0/16"
 
   azs              = ["eu-west-1a", "eu-west-1b"]
   database_subnets = ["10.2.21.0/24", "10.2.22.0/24"]
-  public_subnets   = ["10.2.101.0/24", "10.2.102.0/24"]
+  public_subnets   = ["10.3.101.0/24", "10.3.102.0/24"]
 
   create_database_subnet_group           = true
   create_database_subnet_route_table     = true
