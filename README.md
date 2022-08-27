@@ -33,7 +33,11 @@ We are using the VPC module 4 times
 - VPC E3c with public reachable Database Network
 - VPC E3d with IPv6
 
+## Debug and Enhancements
 
+- [ ] Checkout Git Branch `fixme_1` and try to fix the setup
+- [ ] Checkout Git Branch `fixme_2` and try to fix the setup
+- [ ] create a new main.tf with only 1 VPC, with public_subnet, private_subnet, intra_subnets, flowlogs, and as a bonus private endpoints (ssm, ec2, kms)
 
 
 
