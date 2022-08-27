@@ -139,7 +139,7 @@ module "vpc_e3d" {
   azs              = ["${local.region}a", "${local.region}b", "${local.region}c"]
   private_subnets  = ["10.3.1.0/24", "10.3.2.0/24", "10.3.3.0/24"]
   public_subnets   = ["10.3.101.0/24", "10.3.102.0/24", "10.3.103.0/24"]
-  database_subnets = ["10.3.104.0/24", "10.3.105.0/24", "10.3.106.0/24"]
+  database_subnets = ["10.3.103.0/24", "10.3.104.0/24", "10.3.105.0/24"]
 
   enable_nat_gateway = false
 
