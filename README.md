@@ -1,4 +1,4 @@
-# tf-e3-vpc-module
+# terraform-workshop-e3-vpc-module
 Learn Terraform Exercise using 3rd party AWS module
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
